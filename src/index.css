@@ -23,8 +23,11 @@ body {
   grid-template: repeat(3, 1fr) / repeat(3, 1fr);
   gap: 1rem;
 }
-
 .squares {
+  background: white;
+  color: black;
   border: none;
   font-size: 5rem;
+  cursor: pointer;
+  outline: none;
 }
